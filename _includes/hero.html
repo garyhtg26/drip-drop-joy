@@ -1,0 +1,41 @@
+
+  <!-- SECTION 1: HERO -->
+  <section
+    class="h-[70vh] sm:h-[75vh] md:h-[80vh] lg:h-screen relative overflow-hidden flex flex-col justify-center px-10 pt-20"
+  >
+    <!-- Background Layers: Pink Top + Image Bottom -->
+    <div class="absolute inset-0 z-0">
+      <!-- Pink area (top) -->
+      <div class="absolute top-0 left-0 w-full h-[25%] bg-ice-pink"></div>
+
+      <!-- Background image (bottom) -->
+      <div
+        class="absolute bottom-0 left-0 w-full h-[75%] bg-cover bg-center bg-no-repeat"
+        style="background-image: url('assets/images/background.jpg'); background-size: cover; background-position: center;"
+      ></div>
+    </div>
+
+    <div class="relative z-10" data-aos="fade-right" data-aos-duration="1000">
+      <h1
+        class="text-ice-blue text-[12vw] font-[800] leading-custom uppercase tracking-tighter"
+      >
+        DRIP<br />DROP<br />JOY
+      </h1>
+    </div>
+
+    <!-- Ice Cream Main Image -->
+    <div
+      class="absolute right-0 bottom-0 w-2/3 md:w-2/3 z-20"
+      data-aos="fade-up"
+      data-aos-delay="300"
+    >
+      <img
+        src="{{ '/assets/images/ice-cream.png' | relative_url }}"
+        alt="Hero Ice Cream"
+        class="w-full h-auto object-contain translate-y-10"
+      />
+    </div>
+
+    <!-- Drip Divider -->
+    
+  </section>

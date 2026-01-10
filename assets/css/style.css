@@ -1,0 +1,12 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.text-ice-blue { color: #3149BA; }
+.bg-ice-pink { background-color: #FEB1C5; }
+.bg-ice-mint { background-color: #B2F0D4; }
+.bg-ice-yellow { background-color: #FFF9A5; }
+.bg-ice-blue-light { background-color: #C2E2F7; }
+.bg-ice-peach { background-color: #FFC0CB; }
+
+.leading-custom { line-height: 0.85; }
