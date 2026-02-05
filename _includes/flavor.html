@@ -1,55 +1,86 @@
-  <!-- SECTION 2: GRID FLAVORS -->
-  <section class="bg-ice-pink py-20 px-10">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
-      <!-- Galaxy Swirl -->
+<section
+  class="relative w-full overflow-hidden bg-[#F4B6BB]"
+  data-aos="fade-up"
+  data-aos-duration="900"
+  data-aos-easing="ease-out-cubic"
+>
+  <div class="relative mx-auto w-full px-[4%] pt-[8%]">
+    <div class="relative z-20 grid grid-cols-3 gap-[3.2vw] sm:gap-[22px]">
       <div
-        class="bg-ice-blue-light p-8 h-80 flex flex-col justify-between"
+        class="relative aspect-square bg-[#C2E0FC] p-[7%]"
         data-aos="zoom-in"
+        data-aos-duration="700"
+        data-aos-delay="0"
       >
-        <h3 class="text-ice-blue font-semibold text-6xl leading-none uppercase">
-          Galaxy Swirl
+        <h3
+          class="font-bold uppercase tracking-[-0.02em] text-[#3B49B8] leading-[0.95] text-[clamp(18px,3.6vw,44px)]"
+          data-aos="fade-right"
+          data-aos-duration="650"
+          data-aos-delay="140"
+        >
+          GALAXY<br />SWIRL
         </h3>
       </div>
 
-      <!-- Image Block 1 -->
       <div
-        class="bg-ice-yellow p-4 h-80 flex items-center justify-center overflow-hidden"
+        class="relative aspect-square bg-[#FFFFC1] p-[6%] overflow-hidden"
         data-aos="zoom-in"
-        data-aos-delay="100"
+        data-aos-duration="700"
+        data-aos-delay="90"
       >
         <img
           src="{{ '/assets/images/ice-cream1.jpg' | relative_url }}"
-          class="w-full h-full object-cover"
+          alt=""
+          class="h-full w-full object-cover"
+          draggable="false"
+          data-aos="zoom-out"
+          data-aos-duration="900"
+          data-aos-delay="220"
         />
       </div>
 
-      <!-- Tropical Confetti -->
       <div
-        class="bg-ice-mint p-8 h-80 flex items-end justify-end"
+        class="relative aspect-square bg-[#C9FDCD] p-[7%] flex items-end justify-end"
         data-aos="zoom-in"
-        data-aos-delay="200"
+        data-aos-duration="700"
+        data-aos-delay="180"
       >
         <h3
-          class="text-ice-blue font-semibold text-6xl leading-none text-center uppercase"
+          class="text-right font-bold uppercase tracking-[-0.02em] text-[#3B49B8] leading-[0.95] text-[clamp(18px,3.6vw,44px)]"
+          data-aos="fade-left"
+          data-aos-duration="650"
+          data-aos-delay="260"
         >
-          Tropical Confetti
+          TROPICAL<br />CONFETTI
         </h3>
       </div>
     </div>
+  </div>
 
-    <div class="mt-10" data-aos="fade-up">
-      <h2
-        class="text-ice-blue text-[18vw] font-[900] leading-none text-center tracking-tighter uppercase"
-      >
-        YUM YUM
-      </h2>
-    </div>
+  <div
+    class="pointer-events-none absolute left-0 top-[42%] z-10 w-full -translate-y-1/2"
+    data-aos="fade-up"
+    data-aos-duration="900"
+    data-aos-delay="180"
+    data-aos-easing="ease-out-cubic"
+  >
+    <h2 class="text-center font-extrabold uppercase tracking-[.06em] text-[#3B49B8] leading-[0.85] opacity-90 text-[clamp(64px,18vw,220px)]">
+      YUM YUM
+    </h2>
+  </div>
 
-    <!-- Kids eating ice cream -->
-    <div class="mt-10" data-aos="fade-up">
-      <img
-        src="https://images.unsplash.com/photo-1533038590840-1cde6e668a91?auto=format&fit=crop&q=80&w=1500"
-        class="w-full h-[600px] object-cover"
-      />
-    </div>
-  </section>
+  <div
+    class="relative z-0 mt-[6%]"
+    data-aos="fade-up"
+    data-aos-duration="1000"
+    data-aos-delay="260"
+    data-aos-easing="ease-out-cubic"
+  >
+    <img
+      src="{{ '/assets/images/people.png' | relative_url }}"
+      alt=""
+      class="w-full max-w-none object-cover h-[clamp(320px,55vw,820px)]"
+      draggable="false"
+    />
+  </div>
+</section>
